@@ -21,8 +21,8 @@ public class FBApi {
 		System.out.println(me.getBirthday());
 		System.out.println(me.getEmail());
 		
-		String MY_APP_ID = "2843101265959629";
-		String MY_APP_SECRET = "42dfe0100b8d7480b3fa2abdac86aeb4";
+		String MY_APP_ID = "";
+		String MY_APP_SECRET = "";
 		AccessToken accessToken = new DefaultFacebookClient(Version.LATEST).obtainAppAccessToken(MY_APP_ID,MY_APP_SECRET);
 		
 		
